@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+logs/
+*.log
+*.tmp
+*.bak
+data/raw/
+data/private/
+outputs/private/
+*.key
+*.pem

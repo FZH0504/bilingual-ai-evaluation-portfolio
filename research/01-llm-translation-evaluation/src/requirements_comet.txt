@@ -1,0 +1,9 @@
+torch
+unbabel-comet
+pandas
+openpyxl
+PyYAML
+scipy
+numpy
+Flask
+python-docx

@@ -1,0 +1,6 @@
+{
+  "causal": ["because", "since", "therefore", "thus", "hence", "consequently", "as a result", "for this reason"],
+  "temporal": ["before", "after", "while", "when", "then", "subsequently", "meanwhile", "finally"],
+  "logical_additive": ["and", "also", "moreover", "furthermore", "in addition", "additionally", "besides"],
+  "adversative": ["but", "however", "although", "though", "nevertheless", "nonetheless", "in contrast", "on the other hand"]
+}

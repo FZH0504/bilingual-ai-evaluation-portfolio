@@ -1,0 +1,13 @@
+pandas
+openpyxl
+PyYAML
+scipy
+numpy
+textstat
+spacy
+matplotlib
+statsmodels
+Flask
+python-docx
+# Optional semantic cohesion:
+# sentence-transformers

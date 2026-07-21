@@ -1,0 +1,4 @@
+domain,filename,flesch_reading_ease,fkgl,word_count,sentence_count,average_sentence_length,type_token_ratio,adjacent_content_word_overlap,adjacent_noun_overlap,connective_total_incidence,reference_type
+Technology,光伏电站接入 FusionSolar 智能光伏管理系统解决方案EN.txt,37.86952819061102,15.20009907997169,786,27,29.11111111111111,0.4096692111959288,0.1903255932102086,0.2208028083028083,64.8854961832061,Professional English reference
+Finance,金融“活水”当长流EN.txt,29.90997926702849,13.32678699920727,526,28,18.78571428571428,0.5627376425855514,0.05590828924162256,0.06269841269841268,51.33079847908746,Professional English reference
+Public policy,"用好“一张网”,多办惠企事EN.txt",30.53654553954695,14.36763993369884,710,32,22.1875,0.4915492957746479,0.1462813620071685,0.230801098543034,53.52112676056338,Professional English reference

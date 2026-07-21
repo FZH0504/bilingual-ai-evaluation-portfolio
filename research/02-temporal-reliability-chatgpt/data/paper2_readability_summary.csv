@@ -1,0 +1,16 @@
+snapshot,domain,metric,value
+GPT-5.0,Finance,Flesch Reading Ease,19.69
+GPT-5.4,Finance,Flesch Reading Ease,23.57
+GPT-5.5,Finance,Flesch Reading Ease,22.31
+GPT-5.6 Sol,Finance,Flesch Reading Ease,18.07
+GPT-5.0,Technology,Flesch Reading Ease,37.51
+GPT-5.4,Technology,Flesch Reading Ease,43.13
+GPT-5.5,Technology,Flesch Reading Ease,39.62
+GPT-5.6 Sol,Technology,Flesch Reading Ease,40.18
+GPT-5.0,Public policy,Flesch Reading Ease,19.9
+GPT-5.4,Public policy,Flesch Reading Ease,26.18
+GPT-5.5,Public policy,Flesch Reading Ease,18.03
+GPT-5.6 Sol,Public policy,Flesch Reading Ease,18.41
+Human reference,Finance,Flesch Reading Ease,29.91
+Human reference,Technology,Flesch Reading Ease,37.87
+Human reference,Public policy,Flesch Reading Ease,30.54
