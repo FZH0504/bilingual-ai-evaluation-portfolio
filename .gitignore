@@ -1,14 +1,44 @@
+# Python and tests
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
 .venv/
 venv/
-__pycache__/
-*.pyc
+
+# IDE / operating system
 .idea/
-logs/
-*.log
-*.tmp
-*.bak
-data/raw/
-data/private/
-outputs/private/
-*.key
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
 *.pem
+*.key
+
+# Research data and generated text are private by policy
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.tmx
+data/
+datasets/
+raw/
+private/
+outputs/
+results/
+sample_texts/
+generated_texts/
+reference_texts/
+
+# Model and build artifacts
+*.ckpt
+*.pt
+*.pth
+*.log
+dist/
+build/
