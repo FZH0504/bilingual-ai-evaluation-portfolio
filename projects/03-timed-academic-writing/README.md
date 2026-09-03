@@ -36,4 +36,4 @@ Writing stays in the local application unless the learner chooses to copy or sav
 
 ## AI-assisted development
 
-I defined the practice scenario, timer behavior, learner controls, and scope. OpenAI Codex substantially assisted implementation, debugging, and documentation. The app contains no AI model integration.
+I defined the practice scenario, timer behavior, learner controls, and scope. OpenAI Codex substantially assisted implementation, debugging, and documentation. 
