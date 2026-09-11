@@ -1,45 +1,43 @@
-# AI-Assisted Research in Educational Text and LLM Evaluation
+# Bilingual AI Evaluation and Learning Technology
 
-I use AI-assisted coding to operationalize research questions in LLM evaluation, educational text analysis, and learning technology.
+**Zhihan Fu · Research Portfolio**
 
-This repository has been deliberately reduced to three projects that I can explain clearly. It does not present a large software product or claim that every line was written independently. I defined the research questions, analytical requirements, data structure, validation criteria, and interpretation workflow; OpenAI Codex substantially assisted implementation, refactoring, debugging, tests, and documentation.
+My work connects bilingual language research with the evaluation of educational reading materials and the development of writing-practice tools. Starting with Chinese–English translation evaluation, I have become increasingly interested in the reliability of generated texts and how they can be assessed for use by learners.
 
 ## Projects
 
 ### 1. [AI Educational Text Evaluation](projects/01-ai-educational-text-evaluation/)
 
-The primary project evaluates 45 AI-generated adaptations of selected *Journey to the West* chapters: 3 chapters × 3 systems × 5 runs. It examines readability, externally supplied Lexile results, lexical characteristics, content preservation, and repeated-output stability.
+An evaluation of 45 English adaptations of selected Journey to the West chapters, covering three chapters, three generation conditions, and five repeated runs.
 
-This study evaluates **AI-generated educational materials**. It did not include a learner experiment and does not claim to measure learning outcomes.
+The project examines reading difficulty, content preservation, and variation across repeated outputs. It brings together Lexile results, readability and lexical measures, content-point coding, and statistical comparisons.
+
+The folder includes analysis code, method notes, and selected results.
 
 ### 2. [Bilingual LLM Evaluation](projects/02-bilingual-llm-evaluation/)
 
-This project combines a six-model Chinese–English comparison across domain and prompt conditions with a smaller temporal-reliability case study. The primary cross-model design uses model × domain × prompt analysis. A paired comparison is retained only as a supplementary utility and is not described as the paper's main statistical design.
+Two related studies of Chinese–English translation:
+
+- Cross-model evaluation: comparing six language models across financial, technological, and political texts under three prompt conditions.
+- Temporal reliability: examining translation quality and readability across four ChatGPT snapshots.
+
+The work includes text preparation and bilingual alignment, automatic evaluation, and analysis of how different measures capture changes in generated language.
 
 ### 3. [Timed Academic Writing](projects/03-timed-academic-writing/)
 
-A small offline Python/Tkinter writing-practice tool with a ten-minute timer, prompt, word count, copy, clear, restart, and local draft saving. It is not an official ETS product and contains no AI scoring or feedback service.
+An offline Python/Tkinter prototype for focused academic writing practice. Features include a ten-minute timer, live word count, writing controls, and local draft saving.
 
-## Public-data boundary
+This project extends my work with language evaluation into the design of a practical writing environment.
 
-Research datasets and generated texts are intentionally excluded. This repository contains code, methodological documentation, tests that create temporary dummy values, and selected aggregate figures only.
 
-The repository does **not** include:
+## My Contributions
 
-- CSV, XLSX, XLS, or TMX research data;
-- source texts, reference translations, or generated research texts;
-- Lexile result files or content-preservation coding tables;
-- questionnaire files or participant data;
-- API keys, environment files, local deployment screenshots, or third-party source repositories.
+My work across these projects includes developing research questions, preparing and organizing texts, defining evaluation criteria, conducting analyses, checking outputs, and interpreting findings.
 
-## How the code is organized
+See [CONTRIBUTIONS.md](CONTRIBUTIONS.md) for project-specific responsibilities and development details.
 
-Metric code is grouped by research project rather than presented as one file or repository per metric. Each research folder contains one analysis module, one statistics module, tests, and a plain-language `METHOD_NOTES.md`.
+## Repository Contents
 
-## Evidence and limitations
+Each project folder contains an overview, code, and instructions. The research projects also include method notes and selected aggregate figures.
 
-Selected figures are aggregate research outputs. They document work completed with private research materials but do not make the underlying texts public. The method notes state the sample/design limits and distinguish user decisions from AI-assisted implementation.
-
-## License
-
-Unless otherwise noted, source code is released under the MIT License. Research figures and written research content remain © FZH0504 and are not research datasets licensed for reuse.
+Research datasets remain private.
