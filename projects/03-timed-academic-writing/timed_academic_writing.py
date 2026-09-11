@@ -1,8 +1,5 @@
 """A small Tkinter timed writing practice tool.
 
-The application is intentionally limited to practice functions: a visible
-prompt, a ten-minute countdown, an editable response area, word counting,
-copying, and plain-text draft saving.
 """
 
 from __future__ import annotations
