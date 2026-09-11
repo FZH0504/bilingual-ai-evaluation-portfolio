@@ -19,11 +19,7 @@ The private study contains 3 texts × 3 systems/conditions × 5 runs = 45 output
 
 These measures describe different properties. A lower readability level is not automatically a better educational text.
 
-## Content preservation
 
-Content points were defined for each source. Outputs were checked for whether each point was preserved, with exact output evidence and a brief reason.
-
-The coding was **LLM-assisted evidence-based coding**. It is not a human gold standard. The analysis requires binary scores, evidence for positive scores, unique records, and complete content-point coverage.
 
 ## Output stability
 
