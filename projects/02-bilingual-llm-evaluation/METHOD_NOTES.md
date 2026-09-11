@@ -49,6 +49,4 @@ Preliminary rubric/questionnaire design exists, but the audited files do not est
 4. Why aligned-segment COMET scores use an arithmetic mean.
 5. Why temporal results are descriptive and why no learner outcomes are claimed.
 
-## AI-assisted coding
 
-OpenAI Codex substantially assisted implementation, refactoring, debugging, tests, and documentation. I specified the research questions, conditions, data fields, metrics, validation logic, and interpretation requirements.
