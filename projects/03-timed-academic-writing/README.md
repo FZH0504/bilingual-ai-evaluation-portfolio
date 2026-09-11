@@ -35,6 +35,3 @@ python -m unittest discover -s tests -v
 Writing stays in the local application unless the learner chooses to copy or save it. Saved drafts are plain-text files at a user-selected location.
 
 ![Academic writing interface prototype](images/writing-interface-prototype.png.png)
-## AI-assisted development
-
-I defined the practice scenario, timer behavior, learner controls, and scope. OpenAI Codex substantially assisted implementation, debugging, and documentation. 
