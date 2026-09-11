@@ -57,10 +57,6 @@ Install dependencies first:
 python -m pip install -r requirements.txt
 ```
 
-## AI-assisted development
-
-The current codebase is a later AI-assisted reproducibility refactor of the analytical workflow used in the study, developed with substantial assistance from OpenAI Codex for organization, implementation, testing, and debugging. I defined the research questions, analytical requirements, data structure, interpretation, and validation logic.
-
 ## Selected aggregate figures
 
 ![Readability by system and chapter](figures/readability_by_system_and_chapter.png)
