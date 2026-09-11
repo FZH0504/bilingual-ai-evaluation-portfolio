@@ -63,10 +63,6 @@ COMET is optional because its model environment is large:
 python -m pip install -r requirements-comet.txt
 ```
 
-## AI-assisted development
-
-I designed the research comparisons, data organization, evaluation requirements, and interpretation workflow. OpenAI Codex substantially assisted code generation, refactoring, debugging, tests, and documentation. The evaluated LLMs generated research outputs; they were not developed by me.
-
 ## Selected aggregate figures
 
 ![Cross-model metric heatmap](figures/cross_model_metric_heatmap.png)
