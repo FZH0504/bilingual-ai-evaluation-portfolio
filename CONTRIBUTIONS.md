@@ -1,31 +1,39 @@
-# Contributions and AI Assistance
+# Contributions
 
-## My role
+My contributions center on research questions, data preparation, evaluation decisions, and interpretation. The projects also reflect my growing interest in designing tools for language learning and writing practice.
 
-Across these projects, I was responsible for:
+## AI Educational Text Evaluation
 
-- defining the research and educational questions;
-- preparing and organizing the private research materials;
-- defining experimental factors, input fields, metrics, and validation rules;
-- deciding what outputs needed to be compared;
-- testing scripts, checking outputs, revising requirements, and identifying errors;
-- interpreting results and connecting them to papers or learning-technology questions;
-- deciding the final public scope and privacy boundary.
+As project lead, I developed the study design for evaluating generated reading materials and organized the comparison across chapters, generation conditions, and repeated runs.
 
-## AI's role
+My responsibilities included:
 
-OpenAI Codex and other AI tools provided substantial assistance with:
+- Organizing the source materials and generated outputs.
+- Selecting readability and lexical measures relevant to the research questions.
+- Defining content-preservation criteria and reviewing supporting evidence.
+- Checking data consistency and examining variation across repeated outputs.
+- Interpreting the statistical results and preparing the research manuscript.
 
-- generating and restructuring Python code;
-- debugging data-processing and analysis workflows;
-- implementing tests and temporary fixtures;
-- organizing documentation and command-line interfaces;
-- producing or revising analysis utilities and figure-generation workflows.
+## Bilingual LLM Evaluation
 
-GPT, Gemini, and other named systems also generated texts that were evaluated as research material. Model-generated study outputs are distinct from Codex-assisted research coding.
+I contributed to both the cross-model translation study and the temporal-reliability study.
 
-## Authorship boundary
+My work included:
 
-I do not claim to have invented COMET, Lexile, readability formulas, ANOVA, Tukey HSD, or the underlying third-party libraries. I use established tools to answer research questions and can explain the inputs, outputs, design decisions, validation logic, and interpretation limits.
+- Cleaning and aligning Chinese source texts, English references, and model outputs.
+- Organizing evaluation records across models, domains, prompt conditions, and snapshots.
+- Working with translation-quality metrics and linguistic indicators.
+- Conducting quantitative comparisons and checking analytical outputs.
+- Contributing to the interpretation and writing of the research findings.
 
-The current educational-text code is a later AI-assisted reproducibility refactor of the analytical workflow used in the study. It should not be read as evidence that a complete Python package existed at the beginning of the original research.
+These studies helped me move from comparing individual scores toward asking how consistently different measures describe the reliability of generated language.
+
+## Timed Academic Writing
+
+I defined the writing-practice scenario and the prototype’s main requirements, including the countdown, word count, writing controls, and local draft saving.
+
+I also worked on the interface design and reviewed the tool’s behavior during development.
+
+## Development
+
+OpenAI Codex assisted with code implementation, debugging, testing, and documentation. I reviewed the outputs and remained responsible for the research questions, evaluation requirements, and interpretation.
