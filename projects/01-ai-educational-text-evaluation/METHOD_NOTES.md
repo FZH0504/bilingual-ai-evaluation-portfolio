@@ -34,14 +34,3 @@ The analysis checks normalized exact matches, word-frequency cosine similarity, 
 
 The dependent variable changes by analysis—for example Lexile or FKGL. `System` and `Chapter` are factors. A p-value is evidence against a null model under its assumptions; it is not an effect size or proof of educational benefit.
 
-## What I should be able to explain
-
-1. Why 45 outputs arise from the 3 × 3 × 5 design.
-2. Why Lexile, FKGL, MATTR, content preservation, and stability answer different questions.
-3. Why content preservation is described as LLM-assisted rather than human-coded gold data.
-4. What ANOVA, Tukey, and the run sensitivity check contribute.
-5. Why the study evaluates materials rather than learner outcomes.
-
-## AI-assisted coding
-
-OpenAI Codex substantially assisted code generation, refactoring, debugging, tests, and documentation. I specified the research logic, data structure, validation rules, and interpretation requirements, and I reviewed the resulting workflow.
