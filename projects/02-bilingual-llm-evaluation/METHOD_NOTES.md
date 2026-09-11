@@ -41,12 +41,5 @@ The snapshot comparison is descriptive because there is only one source text per
 
 Preliminary rubric/questionnaire design exists, but the audited files do not establish completed participant-level human evaluation. It is therefore not presented as a completed method.
 
-## What I should be able to explain
-
-1. Why model, domain, and prompt are factors in the cross-model study.
-2. Why the paired utility is a different design.
-3. What each major metric contributes and why metrics can disagree.
-4. Why aligned-segment COMET scores use an arithmetic mean.
-5. Why temporal results are descriptive and why no learner outcomes are claimed.
 
 
