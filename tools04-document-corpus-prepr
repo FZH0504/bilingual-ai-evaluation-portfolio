@@ -1,1 +1,38 @@
+# Document and Corpus Preprocessing
 
+Python scripts for preparing scanned documents and text corpora for analysis. The workflow covers PDF preparation, Chinese OCR, text cleaning, and exploratory word-cloud visualization.
+
+## Scripts
+
+| Script | Function |
+| --- | --- |
+| `pdf_cutting.py` | Adjusts PDF crop boxes to exclude upper and lower page margins. |
+| `delete_pages.py` | Keeps pages from a specified starting page to the end of the document. |
+| `run_ocr.py` | Extracts Chinese text with PaddleOCR and filters selected footnote markers. |
+| `clean_txt.py` | Applies rules for chapter headings, punctuation, spacing, and line breaks. |
+| `wordcloud_gui.py` | Provides a word-cloud interface with text input, optional image masks, and PNG export. |
+
+## Workflow
+
+Run the document-processing scripts in this order:
+
+1. `pdf_cutting.py`
+2. `delete_pages.py`
+3. `run_ocr.py`
+4. `clean_txt.py`
+
+Run them from this folder so that their relative file paths resolve consistently. Before processing a new document, update the input and output filenames, cropping proportions, starting page, and cleaning rules in the scripts.
+
+The OCR output feeds into the text-cleaning step. Review the extracted and cleaned text before using it for analysis.
+
+`wordcloud_gui.py` runs separately. Update its font path to a Chinese-compatible font installed on your computer.
+
+## Dependencies
+
+The scripts use PyMuPDF, PaddleOCR, PaddlePaddle, NumPy, OpenCV, WordCloud, Matplotlib, jieba, Pillow, and Tkinter.
+
+The OCR script uses the PaddleOCR 2.x API; its original configuration refers to version 2.8.1.
+
+## Research Context
+
+These tools support the preparation of document-based language data for subsequent analysis and evaluation. The repository includes the processing scripts; source documents and extracted corpora are kept separately.
