@@ -34,6 +34,10 @@ I defined the writing-practice scenario and the prototype’s main requirements,
 
 I also worked on the interface design and reviewed the tool’s behavior during development.
 
+## Document and Corpus Preprocessing
+
+I worked on preparing document-based language data through PDF cropping, page selection, OCR, and text cleaning. This involved configuring the scripts for the source documents and defining filtering and normalization rules for subsequent analysis.
+
 ## Development
 
 OpenAI Codex assisted with code implementation, debugging, testing, and documentation. I reviewed the outputs and remained responsible for the research questions, evaluation requirements, and interpretation.
