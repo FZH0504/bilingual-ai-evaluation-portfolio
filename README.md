@@ -29,6 +29,11 @@ An offline Python/Tkinter prototype for focused academic writing practice. Featu
 
 This project extends my work with language evaluation into the design of a practical writing environment.
 
+## Supporting Tools
+
+### [Document and Corpus Preprocessing](tools/03-document-corpus-preprocessing/)
+
+Python scripts for PDF cropping, page selection, Chinese OCR, text cleaning, and exploratory word-cloud visualization. These tools document the data-preparation work that supports my language research.
 
 ## My Contributions
 
