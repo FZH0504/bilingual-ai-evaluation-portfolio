@@ -31,7 +31,7 @@ This project extends my work with language evaluation into the design of a pract
 
 ## Supporting Tools
 
-### [Document and Corpus Preprocessing](tools/03-document-corpus-preprocessing/)
+[Document and Corpus Preprocessing](projects/01-ai-educational-text-evaluation/tools04-document-corpus-prepr)
 
 Python scripts for PDF cropping, page selection, Chinese OCR, text cleaning, and exploratory word-cloud visualization. These tools document the data-preparation work that supports my language research.
 
